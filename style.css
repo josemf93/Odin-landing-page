@@ -61,7 +61,7 @@ img {
 
   .hero-container{
     display: flex;
-    height: 500px;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
   }
@@ -88,6 +88,10 @@ img {
       margin-top:20px;
       margin-bottom: 20px;
   }
+  .hero-img{
+    padding: 1rem;
+  }
+
 
   .randomTitle{
     margin-top: 1rem;
